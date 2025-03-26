@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Home</title>
+    <!-- fonts links -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="d-block d-xl-none d-lg-none">
+            <div class="menu_overlay" style="display: none;"></div>
+            <div class="mobile_menu_wrap">
+                <ul class="main_menu">
+                    <div class="menu_close">
+                        <a href="javascript:;"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    <li><a href="index.html">Buy</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 align-self-center">
+                            <div class="logo"><a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-4 align-self-center ">
+                            <ul class="top_right_contents">
+                                <li><a href="javascript:;" class="menu_open"><i class="fa-solid fa-bars"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-xl-block d-lg-block">
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 social-links">
+                            <span><a href="#"><i class="fa-brands fa-x-twitter"></i></a></span>
+                            <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                            <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+                            <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
+                        </div>
+                        <div class="col-lg-6 contact order-lg-last">
+                            <span><i class="fa-solid fa-phone"></i><a href="tel:18009908877">+1 (800) 990
+                                    8877</a></span>
+                            <span><i class="fa-regular fa-envelope"></i><a
+                                    href="mailto:info@ipekpartners.com">info@ipekpartners.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menubar">
+                <div class="container">
+                    <div class="row wow fadeIn">
+                        <div class="col-xl-4 col-lg-3 align-self-center">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-9 align-self-center text-end">
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="#">Buy</a></li>
+                                    <li><a href="#">Sell</a></li>
+                                    <li><a href="#">Rent</a></li>
+                                    <li><a href="#">Off Plan</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#" class="btn top-btn">Create a Listing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bg-banner">
+        <img src="images/banners/banner-bg.jpg" alt="" class="big-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 ms-lg-5 ">
+                    <h1>Find Your <span class="line">Perfect</span> Home.</h1>
+                    <p>Take Control and find your dream home today. We buy and sell more than 100 properties and serve
+                        all in the UAE. Take a look at our selection.</p>
+                    <div class="switch-tab">
+                        <ul class="nav  nav-fill" id="ex1" role="tablist">
+                            <li class="nav-item active" role="presentation">
+                                <a class="nav-link" id="ex1-tab-1" data-toggle="tab" href="#ex1-tabs-1" role="tab"
+                                    aria-controls="ex1-tabs-1" aria-selected="true">All Status</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="ex1-tab-2" data-toggle="tab" href="#ex1-tabs-2" role="tab"
+                                    aria-controls="ex1-tabs-2" aria-selected="false">For Rent</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="ex1-tab-3" data-toggle="tab" href="#ex1-tabs-3" role="tab"
+                                    aria-controls="ex1-tabs-3" aria-selected="false">For Sale</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="ex1">
+                            <div id="ex1-tabs-1" class="tab-pane fade show active" role="tabpanel"
+                                aria-labelledby="ex1-tab-1">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Looking for</label>
+                                            <select class="form-select">
+                                                <option>Property Type</option>
+                                                <option>Apartment</option>
+                                                <option>Commercial</option>
+                                                <option>Mansion</option>
+                                                <option>Penthouse</option>
+                                                <option>Residential</option>
+                                                <option>Studio</option>
+                                                <option>Twonhouse</option>
+                                                <option>Villa</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Location</label>
+                                            <select class="form-select">
+                                                <option>All Citites</option>
+                                                <option>Abu Dhabi</option>
+                                                <option>Dubai</option>
+                                                <option>RAK</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Property Size</label>
+                                            <select class="form-select">
+                                                <option>Bedrooms</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>Any</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Your budget</label>
+                                            <select class="form-select">
+                                                <option>Max. Price</option>
+                                                <option>Any</option>
+                                                <option>$5,000</option>
+                                                <option>$10,000</option>
+                                                <option>$50,000</option>
+                                                <option>$100,000</option>
+                                                <option>$200,000</option>
+                                                <option>$300,000</option>
+                                                <option>$400,000</option>
+                                                <option>$500,000</option>
+                                                <option>$600,000</option>
+                                                <option>$700,000</option>
+                                                <option>$800,000</option>
+                                                <option>$900,000</option>
+                                                <option>$1,000,000</option>
+                                                <option>$2,000,000</option>
+                                                <option>$2,500,000</option>
+                                                <option>$5,000,000</option>
+                                                <option>$10,000,000</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="submit" value="Search" class="btn btn-primary">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="ex1-tabs-2" class="tab-pane fade" role="tabpanel" aria-labelledby="ex1-tab-2">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Looking for</label>
+                                            <select class="form-select">
+                                                <option>Property Type</option>
+                                                <option>Apartment</option>
+                                                <option>Commercial</option>
+                                                <option>Mansion</option>
+                                                <option>Penthouse</option>
+                                                <option>Residential</option>
+                                                <option>Studio</option>
+                                                <option>Twonhouse</option>
+                                                <option>Villa</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Location</label>
+                                            <select class="form-select">
+                                                <option>All Citites</option>
+                                                <option>Abu Dhabi</option>
+                                                <option>Dubai</option>
+                                                <option>RAK</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Property Size</label>
+                                            <select class="form-select">
+                                                <option>Bedrooms</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>Any</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Your budget</label>
+                                            <select class="form-select">
+                                                <option>Max. Price</option>
+                                                <option>Any</option>
+                                                <option>$5,000</option>
+                                                <option>$10,000</option>
+                                                <option>$50,000</option>
+                                                <option>$100,000</option>
+                                                <option>$200,000</option>
+                                                <option>$300,000</option>
+                                                <option>$400,000</option>
+                                                <option>$500,000</option>
+                                                <option>$600,000</option>
+                                                <option>$700,000</option>
+                                                <option>$800,000</option>
+                                                <option>$900,000</option>
+                                                <option>$1,000,000</option>
+                                                <option>$2,000,000</option>
+                                                <option>$2,500,000</option>
+                                                <option>$5,000,000</option>
+                                                <option>$10,000,000</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="submit" value="Search" class="btn btn-primary">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div id="ex1-tabs-3" class="tab-pane fade" role="tabpanel" aria-labelledby="ex1-tab-3">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Looking for</label>
+                                            <select class="form-select">
+                                                <option>Property Type</option>
+                                                <option>Apartment</option>
+                                                <option>Commercial</option>
+                                                <option>Mansion</option>
+                                                <option>Penthouse</option>
+                                                <option>Residential</option>
+                                                <option>Studio</option>
+                                                <option>Twonhouse</option>
+                                                <option>Villa</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Location</label>
+                                            <select class="form-select">
+                                                <option>All Citites</option>
+                                                <option>Abu Dhabi</option>
+                                                <option>Dubai</option>
+                                                <option>RAK</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Property Size</label>
+                                            <select class="form-select">
+                                                <option>Bedrooms</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>Any</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                            <label>Your budget</label>
+                                            <select class="form-select">
+                                                <option>Max. Price</option>
+                                                <option>Any</option>
+                                                <option>$5,000</option>
+                                                <option>$10,000</option>
+                                                <option>$50,000</option>
+                                                <option>$100,000</option>
+                                                <option>$200,000</option>
+                                                <option>$300,000</option>
+                                                <option>$400,000</option>
+                                                <option>$500,000</option>
+                                                <option>$600,000</option>
+                                                <option>$700,000</option>
+                                                <option>$800,000</option>
+                                                <option>$900,000</option>
+                                                <option>$1,000,000</option>
+                                                <option>$2,000,000</option>
+                                                <option>$2,500,000</option>
+                                                <option>$5,000,000</option>
+                                                <option>$10,000,000</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="submit" value="Search" class="btn btn-primary">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured -->
+    <section class="featured">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h2>Discover Our <span>Featured</span>Listings</h2>
+                        <p>The best deals for rent or for sale</p>
+                    </div>
+                <div id="featured-slider" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="left-fe">
+                                <span><a href="#">Featured</a></span>
+                            </div>
+                            <div class="right-fe">
+                                <span><a href="#">For Sale</a></span>
+                                <span><a href="#">Hot Offer</a></span>
+                            </div>
+                            <div class="image">
+                                <img src="images/boxes/featired-img.jpg" alt="">
+                            </div>
+                            <div class="details bg-white">
+                                <h3>17 Icon Bay, Corner Unit, Burj Khalifa View</h3>
+                                <span>17 Icon</span>
+                                <div class="info">
+                                    <span><a href="#">3</a></span>
+                                    <span><a href="#">3</a></span>
+                                    <span><a href="#">1650 sqft</a></span>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-between">
+                                    <div class="info-btns">
+                                        <h6>Apartment</h6>
+                                        <span class="me-2"><a href="#"><i class="fa-regular fa-user me-2"></i>Orhan
+                                                Ipek</a></span>
+                                        <span class="text-white"><i class="fa-solid fa-calendar-days me-2"></i>4 months
+                                            ago</span>
+                                    </div>
+                                    <div class="price-tag">
+                                        <h3>$5,500,00</h3> <span>$3,333/sqft</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="item">
+                        <div class="left-fe">
+                            <span><a href="#">Featured</a></span>
+                        </div>
+                        <div class="right-fe">
+                            <span><a href="#">For Sale</a></span>
+                            <span><a href="#">Hot Offer</a></span>
+                        </div>
+                        <div class="image">
+                            <img src="images/boxes/featired-img.jpg" alt="">
+                        </div>
+                        <div class="details bg-white">
+                            <h3>17 Icon Bay, Corner Unit, Burj Khalifa View</h3>
+                            <span>17 Icon</span>
+                            <div class="info">
+                                <span><a href="#">3</a></span>
+                                <span><a href="#">3</a></span>
+                                <span><a href="#">1650 sqft</a></span>
+                            </div>
+                            <div class="price d-flex align-items-center justify-content-between">
+                                <div class="info-btns">
+                                    <h6>Apartment</h6>
+                                    <span class="me-2"><a href="#"><i class="fa-regular fa-user me-2"></i>Orhan
+                                            Ipek</a></span>
+                                    <span class="text-white"><i class="fa-solid fa-calendar-days me-2"></i>4 months
+                                        ago</span>
+                                </div>
+                                <div class="price-tag">
+                                    <h3>$5,500,00</h3> <span>$3,333/sqft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="space-150"></div>
+    <!-- residential -->
+    <section class="residential">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="bg-resident">
+                        <div class="text">
+                            <p>1 Properties</p>
+                            <h3>Villa</h3>
+                            <a href="#" class=" btn btn-primary">More Details</a>
+                        </div>
+                    </div>
+                    <div class="bg-resident ">
+                        <div class="text">
+                            <p>1 Properties</p>
+                            <h3>Appartment</h3>
+                            <a href="#" class=" btn btn-primary">More Details</a>
+                        </div>
+                    </div>
+                    <div class="bg-resident">
+                        <div class="text">
+                            <p>2 Properties</p>
+                            <h3>Studio</h3>
+                            <a href="#" class=" btn btn-primary">More Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <h2>Residential</h2>
+                    <p>Here, you'll find more than just a property—you'll discover a place where you belong. Whether
+                        it's the simplicity of a studio that speaks to the heart of expats, the embrace of a
+                        medium-sized apartment, or the grandeur of a mansion that dreams are made of, we've got you
+                        covered.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- commercial -->
+    <section class="commercial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Commercial</h2>
+                    <p>Discover the perfect space for your business vision with Ipek & Partners. From sleek office
+                        spaces that inspire productivity, to retail locations that capture the essence of your brand, or
+                        expansive industrial sites designed for growth, we're here to match you with the ideal
+                        commercial property. Ipek & Partners isn't just about transactions; it's about understanding
+                        your business goals and helping you achieve them.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image-box">
+                        <img src="images/boxes/commercial.png" alt="">
+                        <div class="text">
+                            <p>2 Properties</p>
+                            <h3>Studio</h3>
+                            <a href="#" class=" btn btn-primary">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Why <span class="line">Ipeck & Partner</span>is the perfect Choice</h2>
+                </div>
+                <div class="col-lg-5">
+                    <h3>Your Vision is our Mission</h3>
+                    <div class="text">
+                        <span class="count">01</span>
+                        <p>At Ipek & Partners, satisfaction isn't just a goal—it's our foundation. Built on the vision
+                            of our founders, who values long-term relationships over short-term gains, we've grown our
+                            network through heartfelt recommendations, one satisfied customer at a time. We're not just
+                            finding spaces; we're creating lasting partnerships and ensuring every client steps into
+                            their future with confidence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Complete Care</h3>
+                    <div class="text">
+                        <span class="count">02</span>
+                        <p>At Ipek & Partners, satisfaction isn't just a goal—it's our foundation. Built on the vision
+                            of our founders, who values long-term relationships over short-term gains, we've grown our
+                            network through heartfelt recommendations, one satisfied customer at a time. We're not just
+                            finding spaces; we're creating lasting partnerships and ensuring every client steps into
+                            their future with confidence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h3>Mark Insights</h3>
+                    <div class="text">
+                        <span class="count">03</span>
+                        <p>At Ipek & Partners, satisfaction isn't just a goal—it's our foundation. Built on the vision
+                            of our founders, who values long-term relationships over short-term gains, we've grown our
+                            network through heartfelt recommendations, one satisfied customer at a time. We're not just
+                            finding spaces; we're creating lasting partnerships and ensuring every client steps into
+                            their future with confidence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <section class="form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-images">
+                        <img src="images/boxes/form-img-1.png" alt="">
+                        <img src="images/boxes/form-img-2.png" alt="">
+                        <img src="images/boxes/form-img-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 form-left">
+                    <h3>Real Esate Enquiry Form</h3>
+                    <div class="form-sec">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="First Name" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="First Name" class="form-control">
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="email" placeholder="Email Address" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                    <select name="inquiry" id="" class="form-select">
+                                        <option value="Inquiry Type">Inquiry type</option>
+                                        <option value="Inquiry Type">Inquiry type</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6">
+                                    <select name="Location" id="" class="form-select">
+                                        <option value="Inquiry Type">Location</option>
+                                        <option value="Inquiry Type">Location</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Zip Code" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Property" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Max Price" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Minimum size (sqft)" class="form-control">
+                                </div>
+                                <div class="col-lg-6">
+                                    <select name="inquiry" id="" class="form-select">
+                                        <option value="Inquiry Type">Number of Beads</option>
+                                        <option value="Inquiry Type">Number of Beads</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6">
+                                    <select name="Location" id="" class="form-select">
+                                        <option value="Inquiry Type">Number of baths</option>
+                                        <option value="Inquiry Type">Number of baths</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 box">
+                                    <span class="label">GDPR Agreement</span>
+                                </div>
+                                <div class="col-12 box">
+                                    <input type="checkbox">
+                                    <span>I consent to having this website store my submitted information</span>
+                                </div>
+
+                                <div class="col-12">
+                                    <input type="submit" value="Search" class="btn">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials -->
+    <section class="testimonials">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading-testi">
+                        <h2>Testimonials</h2>
+                    </div>
+                    <div id="testimonials-slider" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="image-top">
+                                <img src="images/icons/quat.png" alt="">
+                            </div>
+                            <div class="slide-text">
+                                <p>"I highly commend the Real Estate Agency for their exceptional professionalism and
+                                    outstanding services in assisting me to find and finalize my apartment. Orhan Ipek,
+                                    the property consultant, deserves special appreciation for her expertise and
+                                    dedication throughout the process. Her attention to detail and commitment to
+                                    ensuring client satisfaction truly set the agency apart. I wholeheartedly recommend
+                                    their services for a seamless and reliable real estate experience."</p>
+                            </div>
+                            <div class="author">
+                                <h3>- By Raid</h3>
+                                <span>Abteilungsleiter, Wuerth</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image-top">
+                                <img src="images/icons/quat.png" alt="">
+                            </div>
+                            <div class="slide-text">
+                                <p>"I highly commend the Real Estate Agency for their exceptional professionalism and
+                                    outstanding services in assisting me to find and finalize my apartment. Orhan Ipek,
+                                    the property consultant, deserves special appreciation for her expertise and
+                                    dedication throughout the process. Her attention to detail and commitment to
+                                    ensuring client satisfaction truly set the agency apart. I wholeheartedly recommend
+                                    their services for a seamless and reliable real estate experience."</p>
+                            </div>
+                            <div class="author">
+                                <h3>- By Raid</h3>
+                                <span>Abteilungsleiter, Wuerth</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image-top">
+                                <img src="images/icons/quat.png" alt="">
+                            </div>
+                            <div class="slide-text">
+                                <p>"I highly commend the Real Estate Agency for their exceptional professionalism and
+                                    outstanding services in assisting me to find and finalize my apartment. Orhan Ipek,
+                                    the property consultant, deserves special appreciation for her expertise and
+                                    dedication throughout the process. Her attention to detail and commitment to
+                                    ensuring client satisfaction truly set the agency apart. I wholeheartedly recommend
+                                    their services for a seamless and reliable real estate experience."</p>
+                            </div>
+                            <div class="author">
+                                <h3>- By Raid</h3>
+                                <span>Abteilungsleiter, Wuerth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="client-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div id="client-slider" class="owl-carousel owl-theme">
+                        <img src="images/logo/client-1.jpg" alt="">
+                        <img src="images/logo/client-2.jpg" alt="">
+                        <img src="images/logo/client-3.jpg" alt="">
+                        <img src="images/logo/client-4.jpg" alt="">
+                        <img src="images/logo/client-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background: url('images/boxes/footer-bg.jpg');background-position: center;background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pe-lg-5">
+                    <h4>About Site</h4>
+                    <p>Our homepage warmly invites you to discover how we make real estate dreams come true at Ipek &
+                        Partners, showcasing our personalized touch and deep market knowledge. Here, we share our
+                        journey of partnering with clients like you, guiding you through every step towards achieving
+                        your property aspirations.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="col-lg-8 footer-links">
+                    <div class="links">
+                        <h4>Compant</h4>
+                        <ul>
+                            <li><a href="#">BUY</a></li>
+                            <li><a href="#">RENT</a></li>
+                            <li><a href="#">OFF PLAN</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">SELL</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                        </ul>
+                    </div>
+                    <div class="service-link">
+                        <h4>Our services</h4>
+                        <ul>
+                            <li><a href="#">STUDIO</a></li>
+                            <li><a href="#">APARTMENT</a></li>
+                            <li><a href="#">VILLA</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-link">
+                        <h4>Contact us</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>The Opus Tower, Business Bay, 101</li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:18009908877">+1 (800) 990 8877</a></li>
+                            <li><i class="fa-regular fa-envelope"></i><a
+                                    href="mailto:info@ipekpartners.com">info@ipekpartners.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <p>© Houzez - All rights reserved</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 social-links">
+                    <span><a href="#"><i class="fa-brands fa-x-twitter"></i></a></span>
+                    <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                    <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+                    <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </script>
+</body>
+
+</html>
